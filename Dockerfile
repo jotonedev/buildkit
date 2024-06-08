@@ -1,4 +1,4 @@
-FROM buildpack-deps:bookworm
+FROM buildpack-deps:stable
 
 RUN mkdir ~/.ssh && echo "StrictHostKeyChecking no" > ~/.ssh/config
 
